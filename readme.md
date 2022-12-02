@@ -13,6 +13,7 @@ Write this: `body { background: var(--light-grey-500); }`
 - Hassle-free CSS
 - Built-in colors
 - Makes your code tidier
+- Hosted online and of course is open source under GPL v3!
 ## Get Started
 To get started, well you can't. Yet.
 # For more, read the wiki.
