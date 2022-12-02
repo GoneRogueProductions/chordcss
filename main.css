@@ -63,7 +63,7 @@
 }
 
 body {
-    font-family: var(-c-sans-serif);
+    font-family: var(--c-sans-serif);
 }
 
 .c-l {
