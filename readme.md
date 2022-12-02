@@ -37,6 +37,8 @@ chordCSS allows you to seamlessly write CSS without the hassle.
 ## Features
 - Hassle-free CSS
 - Built-in colors
+- Loads of templates to get you started
+- No JS so no need for npm
 - Makes your code tidier
 - Hosted online and of course is open source under GPL v3!
 ## Get Started
