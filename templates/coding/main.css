@@ -9,6 +9,7 @@ h1 {
     padding: 0.5rem;
     padding-bottom: 1rem;
     margin-bottom: 0.5rem;
+    padding-left: 1rem;
 }
 h2 {
     border-left: 2px solid var(--c-lg-50);
