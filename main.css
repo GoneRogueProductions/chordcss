@@ -61,6 +61,10 @@
 /*END VARIABLES */
 }
 
+.c-monospace-font {
+    font-family: var(--c-monospace)!important;
+}
+
 .c-l {
     color: var(--c-link);
     cursor: pointer;
