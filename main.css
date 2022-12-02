@@ -181,9 +181,10 @@
 }
 
 code {
-    padding: 0.1rem;
+    padding: 0.5rem;
     background: var(--c-lg-100);
     border-radius: 5px;
+    font-family: var(--c-monospace);
     color: black!important;
 }
 
