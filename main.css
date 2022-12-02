@@ -159,4 +159,21 @@
         max-width: 960px;
     }
 }
+.nav,
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+@media (min-width: 768px) {
+    .nav-x,
+    .navbar-horizontal {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
 
