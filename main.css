@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
 /* VARIABLES */
     /* COLOURS */
@@ -130,4 +136,11 @@
 .c-col {
     display: flex;
     flex-direction: column;
+}
+.container {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
 }
