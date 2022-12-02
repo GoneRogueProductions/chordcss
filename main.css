@@ -1,21 +1,21 @@
 :root {
 
-    --chord-lg: #969696;
-    --chord-lg-10: rgb(20,20,20);
-    --chord-lg-25: rgb(50,50,50);
-    --chord-lg-50: rgb(100,100,100);
-    --chord-lg-75: rgb(150,150,150);
-    --chord-lg-100: rgb(200,200,200);
+    --c-lg: #969696;
+    --c-lg-10: rgb(20,20,20);
+    --c-lg-25: rgb(50,50,50);
+    --c-lg-50: rgb(100,100,100);
+    --c-lg-75: rgb(150,150,150);
+    --c-lg-100: rgb(200,200,200);
 
-    --chord-r: #ff0000;
+    --c-r: #ff0000;
 
-    --chord-link: #007bff;
-    --chord-link-emphasis: #0062cc;
+    --c-link: #007bff;
+    --c-link-emphasis: #0062cc;
 
-    --chord-suc-link: #28a745;
-    --chord-suc-link-emphasis: #1e7e34;
+    --c-suc-link: #28a745;
+    --c-suc-link-emphasis: #1e7e34;
 
-    --chord-dg-100: #343a40;
+    --c-dg-100: #343a40;
 
     --b: #0000cc;
    --db: #000066;
@@ -24,69 +24,69 @@
    --vlb: #ccebff;
 }
 
-.chord-link {
-    color: var(--chord-link);
+.c-l {
+    color: var(--c-link);
     cursor: pointer;
 }
-.chord-link:hover {
+.c-l:hover {
     text-decoration: underline;
-    color: var(--chord-link-emphasis);
+    color: var(--c-link-emphasis);
 }
 
-.chord-unavaliable-link {
-    color: var(--chord-lg-75);
+.c-unl {
+    color: var(--c-lg-75);
     cursor: not-allowed;
 }
 
-.chord-success-link {
-    color: var(--chord-suc-link);
+.c-sul {
+    color: var(--c-suc-link);
     cursor: pointer;
 }
-.chord-success-link {
-    color: var(--chord-suc-link-emphasis);
+.c-sul {
+    color: var(--c-suc-link-emphasis);
     text-decoration: underline;
 }
 
-.chord-bg-white {
+.c-bg-w {
     background-color: white;
     color: black!important;
 }
-.chord-bg-black {
+.c-bg-b {
     background-color: black;
     color: white!important;
 }
-.chord-bg-light {
-    background-color: var(--chord-lg-100);
+.c-bg-li {
+    background-color: var(--c-lg-100);
     color: black!important;
 }
-.chord-bg-dark {
-    background-color: var(--chord-dg-100)!important;
+.c-bg-da {
+    background-color: var(--c-dg-100)!important;
     color: white!important;
 }
-.chord-bg-auto {
-    background-color: var(--chord-lg-100);
+.c-bg-au {
+    background-color: var(--c-lg-100);
     color: black!important;
 }
 @media (prefers-color-scheme: dark) {
-    .chord-bg-auto {
-        background-color: var(--chord-dg-100)!important;
+    .c-bg-au {
+        background-color: var(--c-dg-100)!important;
         color: white!important;
     }
-    .chord-bg-auto-mono {
+    .c-bg-au-mon {
         background-color: black;
         color: white!important;
     }
 }
-.chord-bg-auto-mono {
+.c-bg-au-mon{
     background-color: white;
     color: black!important;
 }
 
-.chord-row {
+.c-row {
     display: flex;
     flex-direction: row;
 }
-.chord-column {
+.c-col {
     display: flex;
     flex-direction: column;
 }
