@@ -176,4 +176,10 @@
     }
 }
 
+code {
+    padding: 0.1rem;
+    background: var(--c-lg-100);
+    border-radius: 5px;
+    color: black!important;
+}
 
