@@ -40,11 +40,7 @@ chordCSS allows you to seamlessly write CSS without the hassle.
 - Makes your code tidier
 - Hosted online and of course is open source under GPL v3!
 ## Get Started
-It's easy. To get the best CSS experience on your website, simply add the following tag into your 
-
-`html
-<head> `
-:
+It's easy. To get the best CSS experience on your website, simply add the following tag into your `<head>`:
 
 ```html
 <link rel="stylesheet" href="https://gonerogueproductions.github.io/chordcss/main.css">
