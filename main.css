@@ -64,26 +64,33 @@
 .c-monospace-font {
     font-family: var(--c-monospace)!important;
 }
-
+.c-primary-link,
+.c-link,
 .c-l {
     color: var(--c-link);
     cursor: pointer;
 }
+.c-primary-link:hover,
+.c-link:hover,
 .c-l:hover {
     text-decoration: underline;
     color: var(--c-link-emphasis);
 }
-
+.c-not-allowed-link,
+.c-not-allowed,
 .c-unl {
     color: var(--c-lg-75);
     cursor: not-allowed;
 }
-
+.c-success-link,
+.c-success,
 .c-sul {
     color: var(--c-suc-link);
     cursor: pointer;
 }
-.c-sul {
+.c-success-link:hover,
+.c-success:hover,
+.c-sul:hover {
     color: var(--c-suc-link-emphasis);
     text-decoration: underline;
 }
