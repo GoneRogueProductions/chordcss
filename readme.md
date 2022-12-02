@@ -4,16 +4,22 @@
 chordCSS allows you to seamlessly write CSS without the hassle.
 
 ## For example...
- - Instead of this: ```html
+ - Instead of this: 
+ ```html
  <a href="#" style="color: blue;">Hello World!</a>
- ```<br>
-Write this: ```html
+ ```
+ <br>
+Write this: 
+```html
 <a href="#" class="c-l">Hello World!</a>
 ```
-- Instead of this: ```html
+- Instead of this: 
+```html
 body { background: #969696; }
-```<br>
-Write this: ```html
+```
+<br>
+Write this:
+```css
 body { background: var(--c-lg); }
 ```
 ## Features
@@ -25,7 +31,8 @@ body { background: var(--c-lg); }
 It's easy. To get the best CSS experience on your website, simply add the following tag into your 
 ```html
 <head>
-```:
+```
+:
 
 ```html
 <link rel="stylesheet" href="https://gonerogueproductions.github.io/chordcss/main.css">
