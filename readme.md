@@ -17,5 +17,5 @@ Write this: `body { background: var(--lg); }`
 ## Get Started
 It's easy. To get the best CSS experience on your website, simply add the following tag:
 
-`<link rel="stylesheet" href="gonerogueprodutctions.github.io/chordcss/main.css">`
+`<link rel="stylesheet" href="gonerogueproductions.github.io/chordcss/main.css">`
 # For more, read the wiki.
