@@ -1,3 +1,5 @@
 body {
     font-family: var(--c-monospace)!important;
+    background-color: var(--c-lg-10)!important;
+    color: white!important;
 }
