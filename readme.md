@@ -20,14 +20,18 @@ chordCSS allows you to seamlessly write CSS without the hassle.
  - Instead of this:
 
  ```css
- body { background: #969696; }
+ body { 
+   background: #969696; 
+ }
  ```
 
  <br>
  Write this:
 
  ```css
- body { background: var(--c-lg); }
+ body { 
+   background: var(--c-lg); 
+ }
  ```
 
 ## Features
@@ -38,7 +42,8 @@ chordCSS allows you to seamlessly write CSS without the hassle.
 ## Get Started
 It's easy. To get the best CSS experience on your website, simply add the following tag into your 
 
-```html <head> ```
+```html
+<head> ```
 :
 
 ```html
