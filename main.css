@@ -60,7 +60,7 @@
     color: black!important;
 }
 .c-bg-da {
-    background-color: var(--c-dg-100)!important;
+    background-color: var(--c-dg-100);
     color: white!important;
 }
 .c-bg-au {
@@ -69,7 +69,7 @@
 }
 @media (prefers-color-scheme: dark) {
     .c-bg-au {
-        background-color: var(--c-dg-100)!important;
+        background-color: var(--c-dg-100);
         color: white!important;
     }
     .c-bg-au-mon {
