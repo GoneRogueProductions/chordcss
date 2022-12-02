@@ -1,69 +1,70 @@
 :root {
+/* VARIABLES */
+    /* COLOURS */
+        --c-lg: #969696;
+        --c-lg-10: rgb(20,20,20);
+        --c-lg-25: rgb(50,50,50);
+        --c-lg-50: rgb(100,100,100);
+        --c-lg-75: rgb(150,150,150);
+        --c-lg-100: rgb(200,200,200);
+        --c-lg: #969696;
+        --c-lg-10: rgb(20,20,20);
+        --c-lg-25: rgb(50,50,50);
+        --c-lg-50: rgb(100,100,100);
+        --c-lg-75: rgb(150,150,150);
+        --c-lg-100: rgb(200,200,200);
 
-    --c-lg: #969696;
-    --c-lg-10: rgb(20,20,20);
-    --c-lg-25: rgb(50,50,50);
-    --c-lg-50: rgb(100,100,100);
-    --c-lg-75: rgb(150,150,150);
-    --c-lg-100: rgb(200,200,200);
-    --c-lg: #969696;
-    --c-lg-10: rgb(20,20,20);
-    --c-lg-25: rgb(50,50,50);
-    --c-lg-50: rgb(100,100,100);
-    --c-lg-75: rgb(150,150,150);
-    --c-lg-100: rgb(200,200,200);
+        --c-r: #ff0000;
+        --c-lr: #ff8080;
+        --c-dr: #800000;
 
-    --c-r: #ff0000;
-    --c-lr: #ff8080;
-    --c-dr: #800000;
+        --c-b: #0000cc;
+        --c-lb: #8080ff;;
+        --c-db:#000066;
+        --c-vdb: #00004d;
+        --c-vlb: #ccebff;
 
-    --c-b: #0000cc;
-    --c-lb: #8080ff;;
-    --c-db:#000066;
-    --c-vdb: #00004d;
-    --c-vlb: #ccebff;
+        --c-g: #00cc00;
+        --c-lgg: #99ff99;
+        --c-dg: #003300;
 
-    --c-g: #00cc00;
-    --c-lgg: #99ff99;
-    --c-dg: #003300;
+        --c-y:#ffff00 ;
+        --c-ly:#ffff80 ;
+        --c-dy: #666600;
 
-    --c-y:#ffff00 ;
-    --c-ly:#ffff80 ;
-    --c-dy: #666600;
+        --c-bl: #262626;
+        --c-lbl: #808080;
+        --cc-dbl: #000000;
 
-    --c-bl: #262626;
-    --c-lbl: #808080;
-    --cc-dbl: #000000;
+        --c-or:#ff6600 ;
+        --c-lor:#ffa366 ;
+        --c-dor:#662900 ;
 
-    --c-or:#ff6600 ;
-    --c-lor:#ffa366 ;
-    --c-dor:#662900 ;
-
-    --c-pu:#660066;
-    --c-lpu:#ff99ff;
-    --c-dpu:#330033;
+        --c-pu:#660066;
+        --c-lpu:#ff99ff;
+        --c-dpu:#330033;
 
 
-    --c-link: #007bff;
-    --c-link-emphasis: #0062cc;
+        --c-link: #007bff;
+        --c-link-emphasis: #0062cc;
 
-    --c-link: #007bff;
-    --c-link-emphasis: #0062cc;
-    --c-suc-link: #28a745;
-    --c-suc-link-emphasis: #1e7e34;
+        --c-link: #007bff;
+        --c-link-emphasis: #0062cc;
+        --c-suc-link: #28a745;
+        --c-suc-link-emphasis: #1e7e34;
 
-    --c-suc-link: #28a745;
-    --c-suc-link-emphasis: #1e7e34;
+        --c-suc-link: #28a745;
+        --c-suc-link-emphasis: #1e7e34;
 
-    --c-dg-100: #343a40;
-    --c-dg-100: #343a40;
+        --c-dg-100: #343a40;
+        --c-dg-100: #343a40;
 
+        
+    /*END COLOURS */
+    /*FONTS*/
     --c-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-
-}
-
-body {
-    font-family: var(--c-sans-serif);
+    /*END FONTS*/
+/*END VARIABLES */
 }
 
 .c-l {
