@@ -154,6 +154,7 @@
     padding: 1rem;
     margin-left:auto;
     margin-right: auto;
+    display: flex;
 }
 @media (min-width: 576px) {
     .c-container {
@@ -217,4 +218,18 @@ h4,
 h5,
 h6 {
     margin-bottom: 2rem;
+}
+.c-xy-center,
+.c-center,
+.c-flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.c-center-y,
+.c-flex-center-y {
+    align-items: center;
+}
+.c-center-x,
+.c-flex-center-x {
+    justify-content: center;
 }
