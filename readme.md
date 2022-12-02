@@ -8,7 +8,7 @@ chordCSS allows you to seamlessly write CSS without the hassle.
  - Instead of this: `<a href="#" style="text-decoration: none; color: black;">Hello World!</a>`<br>
 Write this: `<a href="#" class="no-ul clr-bl">Hello World!</a>`
 - Instead of this: `body { background: #987989; }`<br>
-Write this: `body { background: var(--light-grey-500); }`
+Write this: `body { background: var(--lg500); }`
 ## Features
 - Hassle-free CSS
 - Built-in colors
