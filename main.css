@@ -58,7 +58,12 @@
     --c-dg-100: #343a40;
     --c-dg-100: #343a40;
 
+    --c-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
+}
+
+body {
+    font-family: var(-c-sans-serif);
 }
 
 .c-l {
