@@ -15,5 +15,6 @@ Write this: `body { background: var(--lg); }`
 - Makes your code tidier
 - Hosted online and of course is open source under GPL v3!
 ## Get Started
-To get started, well you can't. Yet.
+It's easy. To get the best CSS experience on your website, simply add the following tag:
+`link rel="stylesheet" href="gonerogueprodutctions.github.io/chordcss/main.css">`
 # For more, read the wiki.
