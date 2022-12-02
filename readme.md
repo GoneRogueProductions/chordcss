@@ -1,8 +1,8 @@
 ### Coming soon!
-# shorthandCSS
+# chordCSS
 <em>The best solution for CSS. Include in every project.</em>
 
-shorthandCSS allows you to seamlessly write CSS without the hassle.
+chordCSS allows you to seamlessly write CSS without the hassle.
 
 ## For example...
  - Instead of this: `<a href="#" style="text-decoration: none; color: black;">Hello World!</a>`<br>
