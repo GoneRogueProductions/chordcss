@@ -1,7 +1,7 @@
 # <img src="https://gonerogueproductions.github.io/chordcss/logos/logo.png" height="100" alt="ChordCSS">
 <em>The best solution for CSS. Include in every project.</em>
 
-chordCSS allows you to seamlessly write CSS without the hassle.
+ChordCSS allows you to seamlessly write CSS without the hassle.
 
 ## For example...
  - Instead of this: 
@@ -47,4 +47,5 @@ It's easy. To get the best CSS experience on your website, simply add the follow
 ```html
 <link rel="stylesheet" href="https://gonerogueproductions.github.io/chordcss/main.css">
 ```
+or you can `git clone` this repo and use the CSS files inside.
 # For more, read the [wiki ](https://github.com/GoneRogueProductions/chordcss/wiki)
