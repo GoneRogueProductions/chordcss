@@ -47,4 +47,4 @@ It's easy. To get the best CSS experience on your website, simply add the follow
 ```html
 <link rel="stylesheet" href="https://gonerogueproductions.github.io/chordcss/main.css">
 ```
-# For more, read the wiki.
+# For more, read the [wiki ](GitHub.com/gonerogueproductions/chordcss/wiki)
