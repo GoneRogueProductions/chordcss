@@ -1,4 +1,4 @@
-# chordCSS
+# ![ChordCSS](http://gonerogueproductions.github.io/chordcss/logos/logo.png)
 <em>The best solution for CSS. Include in every project.</em>
 
 chordCSS allows you to seamlessly write CSS without the hassle.
