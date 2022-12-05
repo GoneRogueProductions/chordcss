@@ -5,6 +5,8 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
 * {
     margin: 0;
     padding: 0;
+    margin-left:0.25vw !important;
+    margin-top: 0.25vw !important;
     box-sizing: border-box;
 }
 
