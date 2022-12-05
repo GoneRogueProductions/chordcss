@@ -238,3 +238,9 @@ h6 {
 .c-flex-center-x {
     justify-content: center;
 }
+.c-no{
+    text-decoration:none;
+}
+img {
+    height:attr(height);
+}
