@@ -178,17 +178,18 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
 }
 .c-nav,
 .c-navbar {
-    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     padding: .5rem 1rem;
     width: 100%;
+    height: 75px;
 }
 .c-nav-sticky {
     position: sticky;
-    top: 0;
-    left: 0;
 }
 
 @media (min-width: 768px) {
