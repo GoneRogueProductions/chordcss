@@ -13,15 +13,22 @@
             color:white;
             font-size:2vw;
             padding:1%;
+            cursor: pointer;
         }
         .c-nav {
 			background-color: var(--c-b);
       transition-duration: 0.5s;
       font-family: var(--c-sans-serif);
         }
+        .c-nav img {
+          cursor: pointer;
+        }
         .c-nav img:hover {
               transform:scale(1.2);
               margin: 0 15px;
+        }
+        .c-nav a::before {
+          cursor: pointer;
         }
         .navbar-home:hover::before {
 			transition-duration: 0.5s;
