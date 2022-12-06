@@ -193,6 +193,10 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
     width: 100%;
     height: 75px;
 }
+.c-nav img,
+.c-navbar img {
+    height: 50px;
+}
 .c-nav-sticky {
     position: sticky;
 }
