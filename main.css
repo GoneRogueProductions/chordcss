@@ -5,8 +5,6 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
 * {
     margin: 0;
     padding: 0;
-    margin-left:0.25vw !important;
-    margin-top: 0.25vw !important;
     box-sizing: border-box;
 }
 
@@ -178,18 +176,24 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
         max-width: 960px;
     }
 }
-.nav,
-.navbar {
-    position: relative;
+.c-nav,
+.c-navbar {
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
     padding: .5rem 1rem;
+    width: 100%;
 }
+.c-nav-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 @media (min-width: 768px) {
-    .nav-x,
-    .navbar-horizontal {
+    .c-nav-x,
+    .c-navbar-horizontal {
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
