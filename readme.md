@@ -45,7 +45,7 @@ ChordCSS allows you to seamlessly write CSS without the hassle.
 It's easy. To get the best CSS experience on your website, simply add the following tag into your `<head>`:
 
 ```html
-<link rel="stylesheet" href="https://getchord.ml/main.css">
+<link rel="stylesheet" href="https://getchord.ml/chordcss/chord.min.css">
 ```
 or you can `git clone` this repo and use the CSS files inside.
 # For more, read the [wiki ](https://github.com/GoneRogueProductions/chordcss/wiki)
