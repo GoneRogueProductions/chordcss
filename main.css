@@ -160,6 +160,11 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
     margin-left:auto;
     margin-right: auto;
     display: flex;
+    flex-direction: column;
+}
+.c-container-x,
+.c-cont-x {
+    flex-direction: row;
 }
 @media (min-width: 576px) {
     .c-container {
