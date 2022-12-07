@@ -65,7 +65,11 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
     /*END FONTS*/
 /*END VARIABLES */
 }
-
+/*Below is a minecraft font i found on github i love it and so should you.*/
+@font-face {
+  font-family: monocraft;
+  src: url(https://raw.githubusercontent.com/IdreesInc/Monocraft/main/Monocraft.otf);
+}
 .c-monospace-font {
     font-family: var(--c-monospace)!important;
 }
