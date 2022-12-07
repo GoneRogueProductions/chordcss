@@ -14,7 +14,17 @@ it's not an insult to your skill!
 
 - No vandalism
 
-- Follow the naming conventions I'll explain them later
+- Follow the naming conventions
+
+## Naming Conventions
+- Pull Request
+- In the title describe the main changes
+- In the description run down each file that has been changed, why it was changed and the new features that the changes have added
+
+### Example
+- Title - Created helloworld.md
+- Description - helloworld.md - created file - this is a test it has no purpose
+
 
 
 ## How to contribute
