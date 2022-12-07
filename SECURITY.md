@@ -5,7 +5,7 @@
 | Version                        | Supported          |
 | ------------------------------ | ------------------ |
 | 0.0x                           | :x:                |
-| S-0.0x                         | :white_check_mark: |
+| Anything in /chordcss          | :white_check_mark: |
 | Dev Mode                       | :x:                |
 | Versions Marked with tag OLD   | :x:                |
 
