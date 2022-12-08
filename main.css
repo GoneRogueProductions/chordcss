@@ -7,7 +7,10 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
     padding: 0;
     box-sizing: border-box;
 }
-
+.test::before {
+    content:"a";
+    font-family:icontest;
+}
 :root {
 /* VARIABLES */
     /* COLOURS */
