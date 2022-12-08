@@ -70,6 +70,10 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
   font-family: monocraft;
   src: url(https://raw.githubusercontent.com/IdreesInc/Monocraft/main/Monocraft.otf);
 }
+@font-face {
+  font-family: icontest;
+  src: url(https://raw.githubusercontent.com/gonerogueproductions/chordcss/main/Untitled1.ttf);
+}
 .c-monospace-font {
     font-family: var(--c-monospace)!important;
 }
