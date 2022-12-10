@@ -2,41 +2,36 @@
 <html lang="en">
 <head>
     <style>
-	    @font-face {
-  font-family: monocraft;
-  src: url(https://raw.githubusercontent.com/IdreesInc/Monocraft/main/Monocraft.otf);
-}
 		html,
 		body {
 			margin: 0!important;
 		}
-        * {
-            font-family: monocraft;
-        }
-        .c-nav a{
-            color:white;
-            font-size:2vw;
-            padding:1%;
-            cursor: pointer;
-        }
-        .c-nav {
-			background-color: var(--c-b);
+    * {
+      font-family:var(--c-monospace);
+    }
+    .c-nav a{
+      color:white;
+      font-size:2vw;
+      padding:1%;
+      cursor: pointer;
+    }
+    .c-nav {
+      background-color: var(--c-b);
       transition-duration: 0.5s;
-      font-family: var(--c-sans-serif);
-        }
-        .c-nav img {
-          cursor: pointer;
-        }
-        .c-nav img:hover {
-              transform:scale(1.2);
-              margin: 0 15px;
-        }
-        .c-nav a::before {
-          cursor: pointer;
-        }
-        .navbar-home:hover::before {
-			transition-duration: 0.5s;
-			content: 'Home ';
+    }
+    .c-nav img {
+      cursor: pointer;
+    }
+    .c-nav img:hover {
+          transform:scale(1.2);
+          margin: 0 15px;
+    }
+    .c-nav a::before {
+      cursor: pointer;
+    }
+    .navbar-home:hover::before {
+    transition-duration: 0.5s;
+    content: 'Home ';
 		}
     .navbar-github:hover::before {
 			transition-duration: 0.5s;
@@ -44,15 +39,17 @@
 		}
     .navbar-file:hover::before {
 			transition-duration: 0.5s;
-			content: 'Latest .css file ';
+			content: 'Dev Version';
 		}
     .navbar-stable:hover::before {
 			transition-duration: 0.5s;
-			content: 'Latest Stable Release ';
+			content: 'Stable Version';
 		}
+    a {
+      font-size: 30px !important;
+    }
     </style>
-    <link rel="stylesheet" href="https://getchord.ml/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://getchord.ml/templates/coding/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,10 +71,10 @@
 <body class="c-bg-b">
     <div class="c-nav c-nav-sticky">
       <img onclick="location.href='/index.html';" src="https://gonerogueproductions.github.io/chordcss/logos/logo.png" height="100" alt="ChordCSS">
-        <a href="index.html" class="c-no-decoration navbar-home"><i class="fa fa-home"></i></a>
-        <a href="http://github.com/gonerogueproductions/chordcss" class="c-no-decoration navbar-github"><i class="fa fa-github"></i></a>
-        <a href="/main.css" class="c-no-decoration navbar-file"><i class="fa fa-file"></i></a>
-        <a href="/archive/v0.01.min.css" class="c-no-decoration navbar-stable"><i class="fa fa-lock"></i></a>
+        <a href="index.html" class="c-no-decoration navbar-home"><i class="ci-house"></i></a>
+        <a href="http://github.com/gonerogueproductions/chordcss" class="c-no-decoration navbar-github"><i class="ci-github"></i></a>
+        <a href="/main.css" class="c-no-decoration navbar-file"><i class="ci-file"></i></a>
+        <a href="/archive/v0.01.min.css" class="c-no-decoration navbar-stable"><i class="ci-lock"></i></a>
     </div>
 	<div class="c-container">
 		<h1><img src="https://gonerogueproductions.github.io/chordcss/logos/logo.png" height="100" alt="ChordCSS"></h1>
@@ -85,10 +82,11 @@
         
         chordcss. The best css framework out there. You should use it. You know you want to. Coded by a small but dedicated team of developers.
         We have made chordcss a responsive, beginner friendly framework. On our homepage we have a <b>full</b>
-        set of docs, taking you through the usage of our framework. The footprint is a mere 4kb - astonishing! Hours were spent trying to get npm working on github but it wasn't playing ball so here we go i guess  :/
+        set of docs, taking you through the usage of our framework. The footprint is a mere 4kb.
+        We even built our homepage entirely using chordcss - no other frameworks!
+        Amazing - check out the docs on our <i class="ci-github no">GitHub</i> for more!
         
     </h2>
 	</div>
-
 </body>
 </html>

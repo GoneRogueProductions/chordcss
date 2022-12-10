@@ -7,13 +7,52 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
     padding: 0;
     box-sizing: border-box;
 }
-.test::before {
-    content:"a";
-    font-family:icontest;
+i.no {
+    font-style:normal;
+}
+@font-face {
+    font-family:icons;
+    src: url(fonts/iconsv003.otf);
+  }
+.ci-house::before {
+    content:"A";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-github::before {
+    content:"B";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-file::before {
+    content:"C";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-lock::before {
+    content:"D";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-css3::before {
+    content:"E";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-html5::before {
+    content:"F";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-img::before {
+    content:"G";
+    font-family:icons;
+    font-style:normal;
 }
 :root {
 /* VARIABLES */
     /* COLOURS */
+    --c-dfs:40px;
         --c-lg: #969696;
         --c-lg-10: rgb(20,20,20);
         --c-lg-25: rgb(50,50,50);
@@ -74,8 +113,8 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
   src: url(https://raw.githubusercontent.com/IdreesInc/Monocraft/main/Monocraft.otf);
 }
 @font-face {
-  font-family: icontest;
-  src: url(https://raw.githubusercontent.com/gonerogueproductions/chordcss/main/icons v0.01-alpha.ttf);
+  font-family:icons;
+  src: url(/fonts/iconsv003.otf);
 }
 .c-monospace-font {
     font-family: var(--c-monospace)!important;
