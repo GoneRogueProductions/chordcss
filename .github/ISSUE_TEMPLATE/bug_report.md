@@ -24,9 +24,10 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Android]
+ - OS: [e.g. Windows 10]
+ - OS Build: [e.g. 1030]
  - Browser [e.g. chrome, firefox]
- - Version [e.g. 22]
+ - Browser Version [e.g. 22]
 
 **Smartphone (please complete the following information):**
  - Device: [e.g. Nokia G11]
