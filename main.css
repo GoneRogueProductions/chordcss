@@ -12,7 +12,7 @@ i.no {
 }
 @font-face {
     font-family:icons;
-    src: url(fonts/iconsv003.otf);
+    src: url(http://getchord.ml/fonts/iconsv003.otf);
   }
 .ci-house::before {
     content:"A";
