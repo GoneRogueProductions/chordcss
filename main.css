@@ -105,6 +105,11 @@ i.no {
     --c-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --c-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     /*END FONTS*/
+    /*SHADOWS*/
+    --c-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    --c-box-shadow-subtle: 0 0 128px 0 rgba(40,40,40,0.1), 0 32px 64px -48px rgba(40,40,40,0.5);
+    --c-inset-shadow: 0 0 #0000,0 0 #0000,inset 0 1px 4px 0 rgba(0,0,0,.05);
+    /*END SHADOWS*/
 /*END VARIABLES */
 }
 /*Below is a minecraft font i found on github i love it and so should you.*/
@@ -316,3 +321,15 @@ img {
 .c-h4 { font-size: 1.6vw;} 
 .c-h5 { font-size: 1.2vw;} 
 .c-h6 { font-size: 1vw;}
+
+.c-vertical-navbar,
+.c-v-nav {
+    display: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    min-width: 10%;
+    padding: 25px;
+}
