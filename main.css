@@ -3,6 +3,9 @@ Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
 */
 * {
     float:attr(float);
+    height:attr(height);
+    width:attr(width);
+    color:attr(color);
 }
 * {
     margin: 0;
