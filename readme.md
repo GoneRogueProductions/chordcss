@@ -14,7 +14,7 @@ ChordCSS allows you to seamlessly write CSS without the hassle.
  Write this:
 
  ```html
- <a href="#" class="c-l">Hello World!</a>
+ <a href="#" class="c-b">Hello World!</a>
  ```
 
  - Instead of this:
