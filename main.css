@@ -320,12 +320,19 @@ h6 {
 img {
     height:attr(height);
 }
-.c-h1 { font-size: 2.4vw;} 
-.c-h2 { font-size: 2.2vw;} 
-.c-h3 { font-size: 1.8vw;} 
-.c-h4 { font-size: 1.6vw;} 
-.c-h5 { font-size: 1.2vw;} 
-.c-h6 { font-size: 1vw;}
+.c-h1w { font-size: 2.4vw;} 
+.c-h2w { font-size: 2.2vw;} 
+.c-h3w { font-size: 1.8vw;} 
+.c-h4w { font-size: 1.6vw;} 
+.c-h5w { font-size: 1.2vw;} 
+.c-h6w { font-size: 1vw;}
+
+.c-h1h { font-size: 2.4vh;} 
+.c-h2h { font-size: 2.2vh;} 
+.c-h3h { font-size: 1.8vh;} 
+.c-h4h { font-size: 1.6vh;} 
+.c-h5h { font-size: 1.2vh;} 
+.c-h6h { font-size: 1vh;}
 
 .c-vertical-navbar,
 .c-v-nav {
