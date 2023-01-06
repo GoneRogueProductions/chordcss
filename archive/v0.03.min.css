@@ -1,0 +1,347 @@
+/* DO NOT REMOVE
+Copyright Gonerogueproductions 2022 - uimaxbai, werdl and thisiscoding
+*/
+* {
+    float:attr(float);
+    height:attr(height);
+    width:attr(width);
+    color:attr(color);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i.no {
+    font-style:normal;
+}
+@font-face {
+    font-family:icons;
+    src: url(http://getchord.ml/fonts/iconsv003.otf);
+  }
+.ci-house::before {
+    content:"A";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-github::before {
+    content:"B";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-file::before {
+    content:"C";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-lock::before {
+    content:"D";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-css3::before {
+    content:"E";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-html5::before {
+    content:"F";
+    font-family:icons;
+    font-style:normal;
+}
+.ci-img::before {
+    content:"G";
+    font-family:icons;
+    font-style:normal;
+}
+:root {
+/* VARIABLES */
+    /* COLOURS */
+    --c-dfs:40px;
+        --c-lg: #969696;
+        --c-lg-10: rgb(20,20,20);
+        --c-lg-25: rgb(50,50,50);
+        --c-lg-50: rgb(100,100,100);
+        --c-lg-75: rgb(150,150,150);
+        --c-lg-100: rgb(200,200,200);
+
+        --c-r: #ff0000;
+        --c-lr: #ff8080;
+        --c-dr: #800000;
+
+        --c-b: #0000cc;
+        --c-lb: #8080ff;
+        --c-db:#000066;
+        --c-vdb: #00004d;
+        --c-vlb: #ccebff;
+
+        --c-g: #00cc00;
+        --c-lgg: #99ff99;
+        --c-dg: #003300;
+
+        --c-y:#ffff00 ;
+        --c-ly:#ffff80 ;
+        --c-dy: #666600;
+
+        --c-bl: #262626;
+        --c-lbl: #808080;
+        --cc-dbl: #000000;
+
+        --c-or:#ff6600 ;
+        --c-lor:#ffa366 ;
+        --c-dor:#662900 ;
+
+        --c-pu:#660066;
+        --c-lpu:#ff99ff;
+        --c-dpu:#330033;
+
+        --c-link: #007bff;
+        --c-link-emphasis: #0062cc;
+
+        --c-success-link: #28a745;
+        --c-success-link-emphasis: #1e7e34;
+        --c-suc-link: #28a745;
+        --c-suc-link-emphasis: #1e7e34;
+        --c-dg-100: #343a40;
+
+        
+    /*END COLOURS */
+    /*FONTS*/
+    --c-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --c-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    /*END FONTS*/
+    /*SHADOWS*/
+    --c-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    --c-box-shadow-subtle: 0 0 128px 0 rgba(40,40,40,0.1), 0 32px 64px -48px rgba(40,40,40,0.5);
+    --c-inset-shadow: 0 0 #0000,0 0 #0000,inset 0 1px 4px 0 rgba(0,0,0,.05);
+    /*END SHADOWS*/
+/*END VARIABLES */
+}
+/*Below is a minecraft font i found on github i love it and so should you.*/
+@font-face {
+  font-family: monocraft;
+  src: url(https://raw.githubusercontent.com/IdreesInc/Monocraft/main/Monocraft.otf);
+}
+@font-face {
+  font-family:icons;
+  src: url(/fonts/iconsv003.otf);
+}
+.c-monospace-font {
+    font-family: var(--c-monospace)!important;
+}
+.c-primary-link,
+.c-link,
+.c-l {
+    color: var(--c-link);
+    cursor: pointer;
+}
+.c-primary-link:hover,
+.c-link:hover,
+.c-l:hover {
+    text-decoration: underline;
+    color: var(--c-link-emphasis);
+}
+.c-not-allowed-link,
+.c-not-allowed,
+.c-unl {
+    color: var(--c-lg-75);
+    cursor: not-allowed;
+}
+.c-success-link,
+.c-success,
+.c-sul {
+    color: var(--c-suc-link);
+    cursor: pointer;
+}
+.c-success-link:hover,
+.c-success:hover,
+.c-sul:hover {
+    color: var(--c-suc-link-emphasis);
+    text-decoration: underline;
+}
+
+.c-bg-w,
+.c-bg-white {
+    background-color: white;
+    color: black!important;
+}
+.c-bg-b,
+.c-bg-black {
+    background-color: black;
+    color: white!important;
+}
+.c-bg-li,
+.c-bg-light {
+    background-color: var(--c-lg-100);
+    color: black!important;
+}
+.c-bg-li,
+.c-bg-da {
+    background-color: var(--c-dg-100)!important;
+    color: white!important;
+}
+.c-bg-au,
+.c-bg-auto
+{
+    background-color: var(--c-lg-100);
+    color: black!important;
+}
+@media (prefers-color-scheme: dark) {
+    .c-bg-auto,
+    .c-bg-au {
+        background-color: var(--c-dg-100)!important;
+        color: white!important;
+    }
+    .c-bg-auto-monochrome,
+    .c-bg-au-mon {
+        background-color: black;
+        color: white!important;
+    }
+}
+.c-bg-auto-monochrome,
+.c-bg-au-mon{
+    background-color: white;
+    color: black!important;
+}
+
+.c-row {
+    display: flex;
+    flex-direction: row;
+}
+.c-column,
+.c-col {
+    display: flex;
+    flex-direction: column;
+}
+.c-container {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.c-container-x,
+.c-cont-x {
+    flex-direction: row;
+}
+@media (min-width: 576px) {
+    .c-container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .c-container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .c-container {
+        max-width: 960px;
+    }
+}
+.c-nav,
+.c-navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 75px;
+}
+.c-nav img,
+.c-navbar img {
+    height: 50px;
+}
+.c-nav-sticky {
+    position: sticky;
+}
+
+@media (min-width: 768px) {
+    .c-nav-x,
+    .c-navbar-horizontal {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+code {
+    padding: 0.5rem;
+    background: var(--c-lg-100);
+    border-radius: 5px;
+    font-family: var(--c-monospace);
+    color: black!important;
+}
+
+c-h1,
+c-heading-1 {
+    border-left: 5px solid var(--c-lg-50);
+    border-radius: 2px;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+c-heading-1,
+c-h2 {
+    border-left: 2px solid var(--c-lg-50);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 2rem;
+}
+.c-xy-center,
+.c-center,
+.c-flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.c-center-y,
+.c-flex-center-y {
+    align-items: center;
+}
+.c-center-x,
+.c-flex-center-x {
+    justify-content: center;
+}
+.c-no-decoration{
+    text-decoration:none;
+}
+img {
+    height:attr(height);
+}
+.c-h1w { font-size: 2.4vw;} 
+.c-h2w { font-size: 2.2vw;} 
+.c-h3w { font-size: 1.8vw;} 
+.c-h4w { font-size: 1.6vw;} 
+.c-h5w { font-size: 1.2vw;} 
+.c-h6w { font-size: 1vw;}
+
+.c-h1h { font-size: 2.4vh;} 
+.c-h2h { font-size: 2.2vh;} 
+.c-h3h { font-size: 1.8vh;} 
+.c-h4h { font-size: 1.6vh;} 
+.c-h5h { font-size: 1.2vh;} 
+.c-h6h { font-size: 1vh;}
+
+.c-vertical-navbar,
+.c-v-nav {
+    display: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    min-width: 10%;
+    padding: 25px;
+}
