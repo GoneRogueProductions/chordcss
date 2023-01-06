@@ -39,6 +39,9 @@ ChordCSS allows you to seamlessly write CSS without the hassle.
 - Built-in colors
 - Loads of templates to get you started
 - No JS so no need for npm
+- One click install
+- Navbar
+- Attributes 
 - Makes your code tidier
 - Hosted online and of course is open source under GPL v3!
 ## Get Started
@@ -48,4 +51,6 @@ It's easy. To get the best CSS experience on your website, simply add the follow
 <link rel="stylesheet" href="https://getchord.ml/chordcss/chord.min.css">
 ```
 or you can `git clone` this repo and use the CSS files inside.
+
+or get chord.min.css from the releases tab
 # For more, read the [wiki ](https://github.com/GoneRogueProductions/chordcss/wiki)
