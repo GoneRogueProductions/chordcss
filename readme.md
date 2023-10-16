@@ -1,8 +1,6 @@
 # <img src="https://gonerogueproductions.github.io/chordcss/logos/logo.png" height="100" alt="ChordCSS">
 <em>The best solution for CSS. Include in every project.</em>
 
-# One last commit to finish it off. (I discovered Tailwind)
-
 ChordCSS allows you to seamlessly write CSS without the hassle.
 
 ## For example...
